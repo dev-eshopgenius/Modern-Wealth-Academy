@@ -1,0 +1,303 @@
+{
+  "sections": {
+    "image_with_text_bMUpL7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JhJ9fk": {
+          "type": "heading",
+          "settings": {
+            "heading": "NAVIGATE Your Path to FINANCIAL Success.",
+            "heading_size": "h1"
+          }
+        },
+        "text_Da6qQd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join our academy and unlock the very best of yourself.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JhJ9fk",
+        "text_Da6qQd"
+      ],
+      "custom_css": [
+        "h2 {font-size: 55px; font-family: RecklessNeue-Book; text-transform: uppercase; line-height: 1em; letter-spacing: 0px;}",
+        "p {font-size: 24px; font-family: RecklessNeue-Light; letter-spacing: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_427320170.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_ciAQUg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UAcWe9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Project Vision",
+            "heading_size": "h1"
+          }
+        },
+        "text_E9paJM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The vision for the Modern Wealth Academy website is to establish a user-centric platform that seamlessly integrates educational programs, community engagement, and personalized resources. This website aims to be the central hub for individuals seeking a comprehensive approach to wealth creation, personal development, and holistic well-being.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UAcWe9",
+        "text_E9paJM"
+      ],
+      "custom_css": [
+        "h2 {font-size: 48px; text-transform: uppercase; color: #1f1919;}",
+        "p {font-family: HelveticaNowText-Regular; font-size: 19.2px; color: #1f1919; line-height: 1.4em; letter-spacing: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mwa-project-vision.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_dEUTWP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WaVYpE": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR PILLARS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WaVYpE"
+      ],
+      "custom_css": [
+        "h2 {font-size: 63px; color: #1f1919;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_NEyWtn": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_gLQBTj": {
+          "type": "caption",
+          "settings": {
+            "caption": "01",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_6DwEBY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Community",
+            "heading_size": "h1"
+          }
+        },
+        "text_QXPRim": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join a supportive community of like-minded individuals on the path to financial success.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_gLQBTj",
+        "heading_6DwEBY",
+        "text_QXPRim"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mwa-pillars-community.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_HcVwTh": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_gp8c9a": {
+          "type": "caption",
+          "settings": {
+            "caption": "02",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_Yp6x4a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Education",
+            "heading_size": "h1"
+          }
+        },
+        "text_VMKdLh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Access comprehensive educational resources and courses to enhance your financial knowledge.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_gp8c9a",
+        "heading_Yp6x4a",
+        "text_VMKdLh"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mwa-pillars-education.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_cUjXWh": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_CDmpHT": {
+          "type": "caption",
+          "settings": {
+            "caption": "03",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_r7zxkW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Investment",
+            "heading_size": "h1"
+          }
+        },
+        "text_QhFUBD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn effective investment strategies and gain the confidence to make smart financial decisions.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_CDmpHT",
+        "heading_r7zxkW",
+        "text_QhFUBD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mwa-pillars-investment.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_RkY6zw": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width pastevent\" bis_skin_checked=\"1\">\n<ul class=\"multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--2-col-desktop\" id=\"volenter\" role=\"list\">\n\n\t<li id=\"col2\" class=\"multicolumn-list__item grid__item\">\n\t\t<h3 class=\"font42\">Big Impact<\/h2>\n\t<\/li>\n\t<li id=\"col1\" class=\"multicolumn-list__item grid__item\">\n\t\t<ul class=\"multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--4-col-desktop numberbox\">\n\t\t\t<li><p class=\"num\">100k<\/p>\n\t\t\t<p class=\"iptext\">Attendees\nWorldwide<\/p><\/li>\n\t\t\t<li><p class=\"num\">400+<\/p><p class=\"iptext\">Annual\nevents<\/p><\/li>\n\t\t\t<li><p class=\"num\">10+<\/p><p class=\"iptext\">Live\ntrainers<\/p><\/li>\n\t\t\t<li><p class=\"num\">19+<\/p><p class=\"iptext\">Countries\npresented<\/p><\/li>\n\t\t<\/ul>\n\t<\/li>\n<\/ul>\n<\/div>",
+        "color_scheme": "background-2",
+        "padding_top": 80,
+        "padding_bottom": 100
+      }
+    },
+    "custom_liquid_8wnjad": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width pastevent\" bis_skin_checked=\"1\">\n<h2 class=\"font48\">THE TEAM BEHIND MWA<\/h2>\n<\/div>\n\n<div class=\"page-width pastevent\" bis_skin_checked=\"1\">\n\n<ul class=\"multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--3-col-desktop\" id=\"trainee\" role=\"list\">\n\n\t<li id=\"col2\" class=\"multicolumn-list__item grid__item\">\n\t\t<div class=\"trinebox\"> \n\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0853\/2338\/3078\/files\/mwa-trainer-gavin.png?v=1719657823\">\n\t\t\t<!--<p class=\"userdetils\">\n\t\t\t\t<span class=\"font12\">CHIEF TRAINER<\/span>\n\t\t\t\t<span class=\"font36\"> RESH <\/span>\n\t\t\t<\/p> -->\n\t\t<\/div>\n\t<\/li>\n\t<li id=\"col1\" class=\"multicolumn-list__item grid__item\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0853\/2338\/3078\/files\/mwa-trainer-resh.png?v=1719657824\">\n\t<\/li>\n\t<li id=\"col1\" class=\"multicolumn-list__item grid__item\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0853\/2338\/3078\/files\/mwa-trainer-jonathan.png?v=1719658034\">\n\t<\/li>\n<\/ul>\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_6hGXfk": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width pastevent\" bis_skin_checked=\"1\">\n\n<ul class=\"testimonailgrid\" id=\"testimonial\" role=\"list\">\n\n\t<li id=\"col2\" class=\"testiitem\">\n\t\t<ul class=\"multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--2-col-desktop\">\n\t\t<li id=\"col1\" class=\"multicolumn-list__item grid__item\">\n\t\t<div class=\"testimonialimage\"> \n\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0853\/2338\/3078\/files\/mwa-past-events-01.jpg?v=1719592405\">\n\t\t<\/div>\n\t\t<\/li>\n\t\t<li id=\"col2\" class=\"multicolumn-list__item grid__item\">\n\t\t<div class=\"testimonailbox\">\n\t\t\t<p class=\"wahtsay\">\"Thanks to the Algorithmic Trading course, I've been able to automate some of my trades and see more consistent returns. The technical skills I've gained have been invaluable.\"<\/p>\n\t\t\t<p class=\"postion\">Co-Founder of The Senses Therapy<\/p>\n\t\t<\/div>\n\t\t<\/li>\n\t\t<\/ul>\n\t<\/li>\n\t<li id=\"col2\" class=\"testiitem\">\n\t\t<ul class=\"multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--2-col-desktop\">\n\t\t<li id=\"col1\" class=\"multicolumn-list__item grid__item\">\n\t\t<div class=\"testimonialimage\"> \n\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0853\/2338\/3078\/files\/image_363b525b-7dc9-4fa6-bb02-fcb93de78b1d.png?v=1719466695\">\n\t\t<\/div>\n\t\t<\/li>\n\t\t<li id=\"col2\" class=\"multicolumn-list__item grid__item\">\n\t\t<div class=\"testimonailbox\">\n\t\t\t<p class=\"wahtsay\">\"Thanks to the Algorithmic Trading course, I've been able to automate some of my trades and see more consistent returns. The technical skills I've gained have been invaluable.\"<\/p>\n\t\t\t<p class=\"postion\">Co-Founder of The Senses Therapy<\/p>\n\t\t<\/div>\n\t\t<\/li>\n\t\t<\/ul>\n\t<\/li>\n<\/ul>\n<\/div>",
+        "color_scheme": "background-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_mM9zAN": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width jointeam\" bis_skin_checked=\"1\">\n\t<h2 class=\"font54\">JOIN THE <br>\nCOMMUNITY NOW<\/h2>\n<\/div>\n\n<div class=\"page-width pastevent\" bis_skin_checked=\"1\">\n<ul class=\"multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--2-col-desktop\" id=\"imagecolumn\">\n\t<li class=\"multicolumn-list__item grid__item\" id=\"col1\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0853\/2338\/3078\/files\/community-img-01.jpg?v=1719614523\">\n\t<\/li>\n\t<li class=\"multicolumn-list__item grid__item\" id=\"col2\">\n\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0853\/2338\/3078\/files\/community-img-02.jpg?v=1719614522\">\n\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0853\/2338\/3078\/files\/community-img-03.jpg?v=1719614521\">\n\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0853\/2338\/3078\/files\/community-img-04.jpg?v=1719614522\">\n\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0853\/2338\/3078\/files\/community-img-05.jpg?v=1719614521\">\n\t\n\t<\/li>\n<\/ul>\n<\/div>",
+        "color_scheme": "background-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_with_text_bMUpL7",
+    "image_with_text_ciAQUg",
+    "rich_text_dEUTWP",
+    "image_with_text_NEyWtn",
+    "image_with_text_HcVwTh",
+    "image_with_text_cUjXWh",
+    "custom_liquid_RkY6zw",
+    "custom_liquid_8wnjad",
+    "custom_liquid_6hGXfk",
+    "custom_liquid_mM9zAN"
+  ]
+}
