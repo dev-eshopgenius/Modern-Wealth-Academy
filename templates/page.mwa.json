@@ -24,14 +24,14 @@
           "type": "heading",
           "settings": {
             "heading": "GET FULL ACCESS",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_WcCJJH": {
           "type": "text",
           "settings": {
             "text": "<p>Join our academy and unlock the very best of yourself.<\/p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button_d4wPRi": {
@@ -49,16 +49,17 @@
         "button_d4wPRi"
       ],
       "settings": {
-        "add_class": "",
+        "add_class": "stock-section-banner1",
         "image": "shopify:\/\/shop_images\/450343829_793550816218096_4106101031398651263_n_1.png",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
+        "image_text": "",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "accent-2",
+        "color_scheme": "accent-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -77,7 +78,7 @@
             "link_label": "",
             "svg": "<svg width=\"80\" height=\"55\" viewbox=\"0 0 80 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M50.0643 28.5477C49.4462 29.1594 48.6698 29.4959 47.7445 29.4959C46.8193 29.4959 45.9546 29.1073 45.3327 28.4804C44.7146 27.8495 44.3317 27.311 44.3317 26.0337V1.26181C44.3317 0.564942 43.7748 0 43.0878 0H27.4974C26.8201 0 26.4138 0.30911 26.0751 0.927452L0.134398 53.1711C-0.281922 54.0102 0.319349 55 1.24542 55H11.7606C12.912 55 13.2506 54.3817 13.7924 53.6258L27.9637 25.9953C28.1192 25.6915 28.3164 25.4222 28.5401 25.1913C28.5856 25.1374 28.6348 25.0874 28.688 25.0413C29.3061 24.4297 30.1404 24.0565 31.0657 24.0565C31.9909 24.0565 32.8556 24.4451 33.4774 25.072C34.0956 25.7029 34.4785 26.5647 34.4785 27.5187V53.7382C34.4785 54.4351 35.0354 55 35.7223 55H42.6821C43.5625 55 44.0367 54.3817 44.3752 53.832L59.2177 26.0046C59.4988 25.5226 59.942 25.0505 59.942 25.0505C60.5601 24.4389 61.3944 24.0657 62.3197 24.0657C63.2449 24.0657 64.1096 24.4543 64.7315 25.0812C65.3496 25.7121 65.7325 26.349 65.7325 27.5279V53.7382C65.7325 54.4351 66.2894 55 66.9764 55H78.7562C79.4431 55 80 54.4351 80 53.7382V1.26181C80 0.564942 79.4431 0 78.7562 0H68.3508C67.538 0 67.2672 0.171728 66.9285 0.721378L50.8465 27.557C50.8465 27.557 50.6061 27.9981 50.0643 28.5477Z\" fill=\"#F3F3EB\"><\/path>\n<\/svg>",
             "link": "",
-            "bg_color": ""
+            "bg_color": "#1f1919"
           }
         },
         "column_69H9xg": {
@@ -107,11 +108,11 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "multicolumn_FhrrPH": {
@@ -154,12 +155,13 @@
         "column_bFV7zH"
       ],
       "settings": {
+        "section_css_class": "Type your own CSS class",
         "title": "MWA TRAINERS",
-        "heading_size": "h2",
+        "heading_size": "h0",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
