@@ -59,7 +59,7 @@
             {%- endif -%}
           </div>
           {% if section.settings.image_text != blank %}
-           <div>{{ section.settings.image_text }}</div>
+           <div class="img-abs-text">{{ section.settings.image_text }}</div>
           {% endif %}
         </div>
         <div class="image-with-text__text-item grid__item">
@@ -343,7 +343,7 @@
       "limit": 1,
       "settings": [
         {
-          "type": "inline_richtext",
+          "type": "html",
           "id": "heading",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
