@@ -934,12 +934,12 @@ span.nav-group__note {
   font-size: 10px;}
   .powring-section .banner__heading{    max-width: 500px;}
  .stock-multisec {    position: relative;z-index: 1;}
- .powring-section .banner__content{    top: 56%;
+ /* .powring-section .banner__content{    top: 56%;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 0;
   right: 0;
-  height: auto;}
+  height: auto;} */
   /* .page-stock-option .shopify-section-group-footer-group {
     margin-top: 24rem;} */
 .multiblock-section .page-width{        padding-left: 5rem; padding-right: 5rem;}
