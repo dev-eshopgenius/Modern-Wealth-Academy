@@ -40,11 +40,11 @@
         "text_tRRE7P"
       ],
       "settings": {
-        "section_css_class": "Type your own CSS class",
+        "section_css_class": "stock-section-banner1 community-banner-sec1",
         "image": "shopify:\/\/shop_images\/Vector_1.png",
         "banner_bg": "#f53d31",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -78,15 +78,15 @@
         "text_xmxjzt"
       ],
       "settings": {
-        "section_css_class": "Type your own CSS class",
+        "section_css_class": "powring-section event-sec1",
         "image": "shopify:\/\/shop_images\/event-b.png",
-        "banner_bg": "",
+        "banner_bg": "#f3f3eb",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
