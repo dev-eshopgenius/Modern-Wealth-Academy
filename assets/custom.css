@@ -946,11 +946,35 @@ span.nav-group__note {
 .multiblock-section .multicolumn.background-primary .multicolumn-card {
   background: #1F1919; border-radius: 20px;    padding: 1rem 0 5rem;
 }
-.multiblock-section .multicolumn-card__info h3{color: #F3F3EB; font-size: 64px;font-family: "WhyteInktrap-Bold"; padding: 0 3rem;}
+.multiblock-section .multicolumn-card__info h3{color: #F3F3EB; font-size: 64px;font-family: "WhyteInktrap-Bold"; padding: 0 3.5rem;line-height: 57.6px !important;}
 .multiblock-section .rte p{color: #F3F3EB; font-size: 14px;font-family: "RecklessNeue-Book";} 
 .mwa-section.multicolumn .title-wrapper-with-link {
   justify-content: center; margin-bottom: 6rem;
 }
 .mwa-section.multicolumn .page-width{padding-left: 5rem; padding-right: 5rem;}
 .get-fll-sec .image-with-text__heading{font-size: 64px;;}
-.multiblock-section li:nth-child(2) .multicolumn-list__item {background-color: #356CFC;}
+.multiblock-section li:nth-child(2).multicolumn-list__item .multicolumn-card {background-color: #356CFC;} 
+.get-full-banner{position: relative;}
+.get-full-banner .image-with-text .image-with-text__text-item>*{padding-bottom: 0; padding-left: 0;}
+.get-full-banner::before{content: ""; background: url(mwa-b.png) no-repeat top right; position: absolute; top: 100px; width: 600px; right:0; height:calc(100% - 100px); background-size: 100% 100%;;}
+.get-full-banner  .image-with-text__media img{border-radius: 20px;}
+.stock-section-banner1 .banner__box{ padding-left: 0;}
+.multiblock-sec2 .page-width{padding-left: 1rem; padding-right: 1rem;}
+
+.multiblock-sec2 .multicolumn-list__item.center .media--adapt img{    max-width: 435px;
+  object-fit: contain;}
+  .svg_icon {
+    padding-top: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.menu-section{display: none;}
