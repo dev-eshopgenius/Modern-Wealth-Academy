@@ -212,6 +212,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_email_XVDL3w": {
+      "type": "image-with-email",
+      "blocks": {
+        "heading_YVYhgG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be the first to know about Modern Wealth Academy events",
+            "heading_size": "h1"
+          }
+        },
+        "text_P6GLWM": {
+          "type": "text",
+          "settings": {
+            "text": "Experience amazing people, community building, and magic moments at a Modern Wealth academy event. Sign up now.",
+            "text_style": "body"
+          }
+        },
+        "email_form_zy3JDM": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_YVYhgG",
+        "text_P6GLWM",
+        "email_form_zy3JDM"
+      ],
+      "settings": {
+        "section_css_class": "Type your own CSS class",
+        "image": "shopify:\/\/shop_images\/mwa-pillars-community_4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -220,6 +265,7 @@
     "image_banner_b43bEj",
     "blog_event_dyBhgz",
     "multicolumn_gkPjWp",
-    "featured_blog_zAWJRf"
+    "featured_blog_zAWJRf",
+    "image_with_email_XVDL3w"
   ]
 }
