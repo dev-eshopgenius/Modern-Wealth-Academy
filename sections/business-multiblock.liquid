@@ -25,14 +25,14 @@
 
 <div class="{{ section.settings.section_css_class }} multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
-    class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger1 animate--slide-in1{% endif %}"
+    class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}
   >
-    {% if section.settings.sub_title != blank %}
-      <div class="sub-title">{{ section.settings.sub_title }}</div>
-    {% endif  %}
+  {% if section.settings.sub_title != blank %}
+    <div class="sub-title">{{ section.settings.sub_title }}</div>
+  {% endif  %}
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
@@ -77,8 +77,35 @@
               data-cascade
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
+            
           >
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container" {% if block.settings.bg_color != blank %}
+              style="background:{{ block.settings.bg_color }}"
+          {% endif %}>
+                <div class="multicolumn-card__info">
+                {%- if block.settings.sub_heading != blank -%}
+                    <h3 class="inline-sub_heading">{{ block.settings.sub_heading }}</h3>
+                {%- endif -%}
+                {%- if block.settings.title != blank -%}
+                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div class="rte">{{ block.settings.text }}</div>
+                {%- endif -%}
+                {%- if block.settings.link_label != blank -%}
+                  <a
+                    class="link animate-arrow"
+                    {% if block.settings.link == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.link }}"
+                    {% endif %}
+                  >
+                    {{- block.settings.link_label | escape -}}
+                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
+                  >
+                {%- endif -%}
+              </div>
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -99,7 +126,7 @@
                       if section.settings.image_width == 'half'
                         assign image_width = 0.5
                       elsif section.settings.image_width == 'third'
-                        assign image_width = 0.33
+                        assign image_width = 0.53
                       else
                         assign image_width = 1
                       endif
@@ -121,27 +148,6 @@
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info">
-                {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
-                {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
-                {%- endif -%}
-                {%- if block.settings.link_label != blank -%}
-                  <a
-                    class="link animate-arrow"
-                    {% if block.settings.link == blank %}
-                      role="link" aria-disabled="true"
-                    {% else %}
-                      href="{{ block.settings.link }}"
-                    {% endif %}
-                  >
-                    {{- block.settings.link_label | escape -}}
-                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
-                  >
-                {%- endif -%}
-              </div>
             </div>
           </li>
         {%- endfor -%}
@@ -193,8 +199,8 @@
 
 {% schema %}
 {
-  "name": "t:sections.multicolumn.name",
-  "class": "section",
+  "name": "business multiblock",
+  "class": "section business-multiblock multiblock-section",
   "tag": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
@@ -210,7 +216,7 @@
             "en": "Type your own CSS class"
           }
         },
-      
+       
     {
       "type": "inline_richtext",
       "id": "title",
@@ -406,6 +412,11 @@
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
         },
         {
+        "type": "html",
+        "id": "sub_heading",
+        "label": "Sub Heading"
+        },
+        {
           "type": "inline_richtext",
           "id": "title",
           "default": "Column",
@@ -426,13 +437,18 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.multicolumn.blocks.column.settings.link.label"
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background Color"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "business multiblock",
       "blocks": [
         {
           "type": "column"

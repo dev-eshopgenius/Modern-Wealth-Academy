@@ -1,0 +1,550 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_eRDgUz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zCzx7F": {
+          "type": "heading",
+          "settings": {
+            "heading": "MODERN WEALTH ACADEMY FOR BUSINESS",
+            "heading_size": "h1"
+          }
+        },
+        "text_zPEERF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Partner with Modern Wealth Academy to unlock exclusive educational resources and growth opportunities for your team.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_Pe7c98": {
+          "type": "button",
+          "settings": {
+            "button_label": "BOOK A CALL",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zCzx7F",
+        "text_zPEERF",
+        "button_Pe7c98"
+      ],
+      "settings": {
+        "add_class": "",
+        "image": "shopify:\/\/shop_images\/img_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "image_text": "",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "inverse",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Ccm9TN": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_AwNgmn": {
+          "type": "caption",
+          "settings": {
+            "caption": "For Organisations",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_htxDwh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transform your Organisation",
+            "heading_size": "h1"
+          }
+        },
+        "text_B6Fz3p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Modern Wealth Academy offers customized training solutions designed to align with your business goals, enhancing your workforce's financial acumen and driving collective success.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_AwNgmn",
+        "heading_htxDwh",
+        "text_B6Fz3p"
+      ],
+      "settings": {
+        "add_class": "",
+        "image": "shopify:\/\/shop_images\/getty-images-_gE5nwbWSww-unsplash_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "image_text": "",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_TUpYUr": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_h8PJN6": {
+          "type": "caption",
+          "settings": {
+            "caption": "For Managers",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_b9BJc6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elevate Your Leadership",
+            "heading_size": "h1"
+          }
+        },
+        "text_iMkfHr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enhance your decision-making abilities and leadership effectiveness with our expert-designed courses, tailored to empower managers at all levels.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_h8PJN6",
+        "heading_b9BJc6",
+        "text_iMkfHr"
+      ],
+      "settings": {
+        "add_class": "",
+        "image": "shopify:\/\/shop_images\/getty-images-apMpBIw3QTY-unsplash_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "image_text": "",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_hNPF6z": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_YW33YR": {
+          "type": "caption",
+          "settings": {
+            "caption": "For Individuals",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_tw8FPr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Advance Your Career with Elite Financial Expertise",
+            "heading_size": "h1"
+          }
+        },
+        "text_L8fqPe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take charge of your professional growth through Modern Wealth Academy's comprehensive financial courses. Stand out in your field with certified expertise and practical knowledge that drives real-world success.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_YW33YR",
+        "heading_tw8FPr",
+        "text_L8fqPe"
+      ],
+      "settings": {
+        "add_class": "",
+        "image": "shopify:\/\/shop_images\/microsoft-edge-Px0X7g1mc8k-unsplash_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "image_text": "",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_rBKJBN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EPgnNf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mwa-pillars-community_5.jpg",
+            "title": "Access Industry-Leading Financial Expertise",
+            "text": "<p>With our robust curriculum that covers the latest market trends and investment strategies, your team will gain the knowledge needed to navigate complex financial landscapes effectively.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3mtJUA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DTS_Daniel-Faro_Warm-Up_003_1.png",
+            "title": "Drive Growth with Tailored Training Solutions",
+            "text": "<p>We offer customizable courses that focus on applying practical financial concepts to real-world business scenarios.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DFy3XB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mwa-pillars-community_6.jpg",
+            "title": "Continuous Support for Continuous Success",
+            "text": "<p>Modern Wealth Academy is committed to providing continuous support to your team long after the courses have concluded. From refresher sessions to new content updates and dedicated coaching, we are here to assist your team in maintaining their financial acuity.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EPgnNf",
+        "column_3mtJUA",
+        "column_DFy3XB"
+      ],
+      "settings": {
+        "section_css_class": "Type your own CSS class",
+        "title": "Why partner with us",
+        "sub_title": "The Modern Wealth Academy Difference",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "business_multiblock_hyjE9p": {
+      "type": "business-multiblock",
+      "blocks": {
+        "column_XJXhWG": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "35%",
+            "title": "Profit increase",
+            "text": "<p>Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.<\/p>",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#2de17a"
+          }
+        },
+        "column_mCY8zp": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "80%",
+            "title": "Retention rate",
+            "text": "<p>Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.<\/p>",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#1f1919"
+          }
+        }
+      },
+      "block_order": [
+        "column_XJXhWG",
+        "column_mCY8zp"
+      ],
+      "settings": {
+        "section_css_class": "Type your own CSS class",
+        "title": "Boost ROI with effective coaching",
+        "sub_title": "The Modern Wealth Academy Difference",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "logo_YVUXGG": {
+      "type": "logo",
+      "blocks": {
+        "logo_FGqfx9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_Box_1.png"
+          }
+        },
+        "logo_dHNNtW": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_Box_2.png"
+          }
+        },
+        "logo_fzPkbV": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_Box_5.png"
+          }
+        },
+        "logo_cHkXYx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_Box_3.png"
+          }
+        },
+        "logo_g7TkWp": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_Box_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_FGqfx9",
+        "logo_dHNNtW",
+        "logo_fzPkbV",
+        "logo_cHkXYx",
+        "logo_g7TkWp"
+      ],
+      "settings": {
+        "title": "Trusted by",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "enable_desktop_slider": false,
+        "enable_video_looping": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_dots": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_EJFEX4": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_QfNiVC": {
+          "type": "caption",
+          "settings": {
+            "caption": "Success Story",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_hpq9Q4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Company A’s amplified growth",
+            "heading_size": "h1"
+          }
+        },
+        "image_Nwztb6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mwa-pillars-community_7.jpg"
+          }
+        },
+        "text_CGk9jN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus. Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_QfNiVC",
+        "heading_hpq9Q4",
+        "image_Nwztb6",
+        "text_CGk9jN"
+      ],
+      "settings": {
+        "section_css_class": "Type your own CSS class",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_JDatpc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Mtn8ej": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to Elevate Your Team's Performance?",
+            "heading_size": "h1"
+          }
+        },
+        "text_8bHmPt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schedule Your Strategic Consultation Today<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_Ufa8rL": {
+          "type": "button",
+          "settings": {
+            "button_label": "CONTACT US",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Mtn8ej",
+        "text_8bHmPt",
+        "button_Ufa8rL"
+      ],
+      "settings": {
+        "add_class": "",
+        "image": "shopify:\/\/shop_images\/Copy_of_214A9542_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "image_text": "",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_jmbk9E": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_tnmDWW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What support is available for my team?",
+            "icon": "none",
+            "row_content": "<p>“Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus. Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.”<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kYYJPR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does the program entail?",
+            "icon": "none",
+            "row_content": "<p>“Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus. Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.”<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_V8XH97": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are your pricing plans?",
+            "icon": "none",
+            "row_content": "<p>“Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus. Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.”<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yx847P": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why should I sign my organisation up for MWA Business?",
+            "icon": "none",
+            "row_content": "<p>“Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus. Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.”<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_tnmDWW",
+        "collapsible_row_kYYJPR",
+        "collapsible_row_V8XH97",
+        "collapsible_row_yx847P"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-2",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_eRDgUz",
+    "image_with_text_Ccm9TN",
+    "image_with_text_TUpYUr",
+    "image_with_text_hNPF6z",
+    "multicolumn_rBKJBN",
+    "business_multiblock_hyjE9p",
+    "logo_YVUXGG",
+    "rich_text_EJFEX4",
+    "image_with_text_JDatpc",
+    "collapsible_content_jmbk9E"
+  ]
+}
