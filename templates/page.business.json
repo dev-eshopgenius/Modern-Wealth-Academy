@@ -279,10 +279,11 @@
           "settings": {
             "sub_heading": "35%",
             "title": "Profit increase",
-            "text": "<p>Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.<\/p>",
+            "text": "Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.",
             "link_label": "",
             "link": "",
-            "bg_color": "#2de17a"
+            "bg_color": "#2de17a",
+            "text_color": "#1f1919"
           }
         },
         "column_mCY8zp": {
@@ -290,10 +291,11 @@
           "settings": {
             "sub_heading": "80%",
             "title": "Retention rate",
-            "text": "<p>Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.<\/p>",
+            "text": "Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.",
             "link_label": "",
             "link": "",
-            "bg_color": "#1f1919"
+            "bg_color": "#1f1919",
+            "text_color": "#2de17a"
           }
         }
       },
@@ -362,6 +364,7 @@
         "logo_g7TkWp"
       ],
       "settings": {
+        "section_css_class": "Type your own CSS class",
         "title": "Trusted by",
         "heading_size": "h1",
         "image_ratio": "square",
