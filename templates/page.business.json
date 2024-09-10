@@ -364,11 +364,7 @@
         "logo_g7TkWp"
       ],
       "settings": {
-<<<<<<< HEAD
-        "section_css_class": "Type your own CSS class",
-=======
         "section_css_class": "trusted-by-sec title-centerd",
->>>>>>> 08768be7ea46e7c2dd30a8b175ce5ce9a9326c8f
         "title": "Trusted by",
         "heading_size": "h1",
         "image_ratio": "square",
