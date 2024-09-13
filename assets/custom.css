@@ -1149,6 +1149,11 @@ time{font-family: "SelectaOT-Regular"; border-top: 1px solid; border-right: 1px 
     line-height: 1 !important;
 }
 .accordion summary .icon-caret{    height: 1.3rem;}
+.cry-option-sec.stock-option-sec .num {
+  background: #2DE17A;
+}
+
+
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
  .stock-multisec .multicolumn-list.grid--2-col-tablet-down .grid__item {
@@ -1173,6 +1178,7 @@ time{font-family: "SelectaOT-Regular"; border-top: 1px solid; border-right: 1px 
 
 
 @media (max-width:749px){
+  .stock-option-sec .image-with-text__heading+.image-with-text__text{position: static;;}
   .get-full-banner:before{     background-position: bottom right;   background-size: contain;}
   .stock-section-banner1 .image-with-text__grid,
   .stock-section-banner1.banner:not(.banner--stacked) {

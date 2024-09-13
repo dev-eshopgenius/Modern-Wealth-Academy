@@ -254,6 +254,7 @@
       "settings": {
         "section_css_class": "stock-multisec",
         "title": "Meet the Chief Trainer",
+        "sub_title": "",
         "heading_size": "h0",
         "image_width": "half",
         "image_ratio": "adapt",
@@ -283,14 +284,14 @@
           "type": "heading",
           "settings": {
             "heading": "Powering 1,000 + of                   the best GROWTHS",
-            "heading_size": "h2"
+            "heading_size": "h0"
           }
         },
         "buttons_itDk7E": {
           "type": "buttons",
           "settings": {
             "button_label_1": "READ OUR STORIES",
-            "button_link_1": "",
+            "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
