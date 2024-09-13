@@ -826,7 +826,7 @@ ul#imagecolumn li#col2 img {
 
   ul#custbutonf {
     display: flex;
-    column-gap: 15px;
+    column-gap: 15px;        padding-left: 0;
 }
   .grid--1-col-tablet-down ul#custbutonf .grid__item {
     width: 48% !important;
@@ -1150,6 +1150,13 @@ time{font-family: "SelectaOT-Regular"; border-top: 1px solid; border-right: 1px 
 }
 .accordion summary .icon-caret{    height: 1.3rem;}
 
+@media screen and (min-width: 750px) and (max-width: 989px) {
+ .stock-multisec .multicolumn-list.grid--2-col-tablet-down .grid__item {
+      width: calc(33% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+  .multiblock-section .multicolumn-card__info h3{    font-size: 36px;    line-height: 40.6px !important;}
+}
+
 
 
 @media (min-width:750px) and (max-width:1100px){
@@ -1166,11 +1173,23 @@ time{font-family: "SelectaOT-Regular"; border-top: 1px solid; border-right: 1px 
 
 
 @media (max-width:749px){
+  .get-full-banner:before{     background-position: bottom right;   background-size: contain;}
+  .stock-section-banner1 .image-with-text__grid,
   .stock-section-banner1.banner:not(.banner--stacked) {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     padding-top: 6rem;
 }
+.get-full-banner .image-with-text .image-with-text__text-item>*{    padding-top: 0;}
+.multiblock-sec2 .slider-mobile-gutter .multicolumn-list{   gap: 2rem; flex-direction: column;
+  width: 100%;}
+  .multiblock-sec2 .slider-mobile-gutter .multicolumn-list__item {width: 100%;
+    max-width: 100%;}
+    .svg_icon {
+      padding-top: 3rem;
+  }
+    .multiblock-section .multicolumn-card__info h3{font-size: 50px;    padding: 0;}
+.stock-section-banner1.get-full-banner .image-with-text__grid{padding-top: 0;}
 .stock-section-banner1 .banner__box {
   padding: 4rem 1rem;
   text-align: center;
