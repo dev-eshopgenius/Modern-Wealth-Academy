@@ -1,0 +1,75 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_8T9grM": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Rnz3YJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A COACH",
+            "heading_size": "h1"
+          }
+        },
+        "text_9cVgNC": {
+          "type": "text",
+          "settings": {
+            "text": "Become a highly-paid, impactful & sought-after certified coach trained by Modern Wealth Academy",
+            "text_style": "body"
+          }
+        },
+        "buttons_3gUx7L": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "CONTACT",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rnz3YJ",
+        "text_9cVgNC",
+        "buttons_3gUx7L"
+      ],
+      "settings": {
+        "section_css_class": "Type your own CSS class",
+        "image": "shopify:\/\/shop_images\/Vector_2.png",
+        "banner_bg": "#a49898",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_8T9grM"
+  ]
+}
