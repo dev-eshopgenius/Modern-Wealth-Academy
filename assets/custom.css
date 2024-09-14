@@ -989,7 +989,8 @@ span.nav-group__note {
   left: auto;
   top: 40px;
   height: calc(100% - 40px);
-  object-position: right;}
+  object-position: right bottom;}
+  .community-banner-sec1 .banner__box.content-container{    background-color: transparent;}
   .community-banner-sec1 .banner__content {
     padding-left: 2rem;
 }
@@ -1109,11 +1110,14 @@ time{font-family: "SelectaOT-Regular"; border-top: 1px solid; border-right: 1px 
     font-size: 180px;padding: 0 0 8rem;
     line-height: 1.1 !important;
 }
+.Past-highlights .title-wrapper-with-link{    justify-content: center;}
+.Past-highlights .title-wrapper-with-link h2{    font-size: 36px;}
 .rate-sec slider-component{    margin-top: 4rem;}
 .rate-sec .grid {
   column-gap: 3rem;
   row-gap: 3rem;
 }
+
 .rate-sec .grid--2-col-desktop .grid__item{        width: calc(50% - 1.5rem);
   max-width: calc(50% - 1.5rem);}
 .rate-sec .multicolumn.background-none .multicolumn-card {
@@ -1152,7 +1156,51 @@ time{font-family: "SelectaOT-Regular"; border-top: 1px solid; border-right: 1px 
 .cry-option-sec.stock-option-sec .num {
   background: #2DE17A;
 }
+.evet-besec .image-with-text__content{padding-top: 0;}
+.evet-besec .image-with-text__text.rte.body {
+  font-size: 16px;
+  letter-spacing: 0;
+  font-family: 'RecklessNeue-Book';
+}
+.evet-besec .newsletter-form__field-wrapper {
+  width: 100%;    flex-direction: column;
+  flex-wrap: wrap;    max-width: 100%; gap: 20px;
+  display: flex;
+}
+.email-wrapper {
+  max-width: 480px;
+  width: 100%;
+}
+.evet-besec  .field-inner {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+button#Subscribe{background: #2DE17A;
+  padding: 16px 24px 16px 24px;
+  border-radius: 8px;
+font-size: 10px;    width: 85px;
+font-weight: 400;
+line-height: 10px;
+letter-spacing: -0.01em;font-family: "SelectaOT-Regular";
 
+  }
+  .evet-besec .image-with-text.image-with-text--no-overlap{
+    border-top: 2px solid #1F1919;
+    padding-top: 6rem;
+    border-radius: 25px 25px 0 0;
+    border-right: 2px solid #1F1919;
+    padding-right: 3rem;
+}
+  .evet-besec .newsletter-form__field-wrapper .field__input{font-size: 14px;font-family: 'RecklessNeue-Book';}
+  .evet-besec .field:after, .evet-besec .select:after, .evet-besec .customer .field:after, .evet-besec .customer select:after, 
+  .evet-besec .localization-form__select:after{    border-radius: 4px; }
+.evet-besec  .newsletter-form{max-width:100%}
+.evet-besec .newsletter-form__button{ position: static;}
+.evet-besec .email-wrapper {
+  position: absolute;
+  bottom: 0;
+}
 
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
@@ -1160,8 +1208,12 @@ time{font-family: "SelectaOT-Regular"; border-top: 1px solid; border-right: 1px 
       width: calc(33% - var(--grid-desktop-horizontal-spacing) / 2);
   }
   .multiblock-section .multicolumn-card__info h3{    font-size: 36px;    line-height: 40.6px !important;}
+  .Past-highlights .grid--2-col-tablet-down .grid__item {
+    width: calc(33.333% - 1.5rem);
+    max-width: calc(50% - 1.5rem);
+  }
 }
-
+ 
 
 
 @media (min-width:750px) and (max-width:1100px){
@@ -1178,6 +1230,43 @@ time{font-family: "SelectaOT-Regular"; border-top: 1px solid; border-right: 1px 
 
 
 @media (max-width:749px){
+  .evet-besec .email-wrapper {
+    position: static;
+  }
+ .Past-highlights .grid--2-col-tablet-down .grid__item {
+    width: calc(100% - var(--grid-mobile-horizontal-spacing) / 2);
+    max-width: calc(100% - var(--grid-mobile-horizontal-spacing) / 2);
+}
+  .evet-besec .image-with-text.image-with-text--no-overlap{     padding-top: 4rem;   padding-right: 2rem;}
+  .evet-besec .image-with-text__content{    padding: 2rem 0;}
+  .community-banner-sec1 .banner__media.media img{    left: 0;
+    right: 0;    max-width: 100%;
+    margin: auto;}
+  .product-grid, .blog__posts {
+    gap: 10px;
+}
+.blog-event .product-grid {
+  padding-top: 1rem;
+}
+.blog-event .grid--2-col-tablet-down .grid__item {
+  width: calc(100% - var(--grid-mobile-horizontal-spacing) / 2);
+  max-width: calc(100% - var(--grid-mobile-horizontal-spacing) / 2);
+}
+.page-event .section+.section .banner-wrapper {
+  padding: 3rem 1rem;}
+  .multiple-featured-blog .collection .heading .title{    font-size: 30px;
+    text-align: center;}
+    .multiple-featured-blog .grid--3-col-desktop .grid__item {
+      width: calc(50% - 5px);
+      max-width: calc(50% - 5px);
+  }
+  .community-banner-sec1.stock-section-banner1 .banner__heading {
+    color: #fff;
+}
+.community-banner-sec1.stock-section-banner1 .banner__text p{        max-width: 100%;}
+   .page-width slider-component.page-width {
+    padding: 0;
+}
   .stock-option-sec .image-with-text__heading+.image-with-text__text{position: static;;}
   .get-full-banner:before{     background-position: bottom right;   background-size: contain;}
   .stock-section-banner1 .image-with-text__grid,
