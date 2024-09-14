@@ -26,5 +26,26 @@ $(document).ready(function () {
           }
         });
       });
+
+
+
+
+$('.tab__link').click(function() {
+  $('.tab__link').removeClass('active');
+  $('.support_tabs--items-wrap').removeClass('active');
+  $(this).addClass('active');
+  var target = $(this).data('target');
+  if ($(target).length) {
+      $('html, body').animate({
+          scrollTop: $(target).offset().top
+      }, 500); // 500ms for the scroll animation
+      $(target).addClass('active');
+  } else {
+      console.error('Target element not found:', target);
+  }
+});
+$('.tab__link').first().click();
+
+
 })
 

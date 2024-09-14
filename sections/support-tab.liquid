@@ -1,0 +1,167 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="support_section--wrap">
+  <div class="support_section--main section-{{ section.id }}-padding">
+    <div class="support_tabs--wrap">
+     <div class="support_tab--link--wrap">
+       {% for block in section.blocks %}
+         <div data-target="#{{ block.settings.tab_link | handle }}" class="tab__link">{{ block.settings.tab_link }}</div>
+       {% endfor %} 
+    </div>
+    <div class="support_tabs--wrap">
+        <div class="support_tabs--main">
+            {% for block in section.blocks %}
+                <div class="support_tabs--items-wrap" id="{{ block.settings.tab_link  | handle}}">
+                    <h2 class="title">{{ block.settings.tab_link }}</h2>
+                    <div class="support_tabs--items">
+                        {% for i in (1..5) %}
+                            {% capture question %}question_{{i}}{% endcapture %}
+                            {% capture answer %}answer_{{i}}{% endcapture %}
+                            <div class="support_tabs--item">
+                              <h3 class="tab__link">{{ block.settings[question] }}</h3>
+                              <div class="tab__content">{{ block.settings[answer] }}</div>
+                            </div>
+                        {% endfor %}    
+                    </div>
+                </div>
+            {% endfor %}  
+       </div> 
+    </div>
+    </div>
+ </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Support Tab Section",
+  "class": "tab_section",
+  "tag": "section",
+  "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+  ],
+  "blocks": [
+    {
+        "type": "tabs",
+        "name":"Tab",
+        "settings": [
+            {
+                "type": "text",
+                "id": "tab_link",
+                "label": "Tab Link"
+            },
+            {
+                "type": "header",
+                "content": "Question 1"    
+            },
+            {
+                "type": "text",
+                "id": "question_1",
+                "label": "Question"
+            },
+            {
+                "type": "richtext",
+                "id": "answer_1",
+                "label": "Answer"
+            },
+            {
+                "type": "header",
+                "content": "Question 2"    
+            },
+            {
+                "type": "text",
+                "id": "question_2",
+                "label": "Question"
+            },
+            {
+                "type": "richtext",
+                "id": "answer_2",
+                "label": "Answer"
+            },
+            {
+                "type": "header",
+                "content": "Question 3"    
+            },
+            {
+                "type": "text",
+                "id": "question_3",
+                "label": "Question"
+            },
+            {
+                "type": "richtext",
+                "id": "answer_3",
+                "label": "Answer"
+            },
+            {
+                "type": "header",
+                "content": "Question 4"    
+            },
+            {
+                "type": "text",
+                "id": "question_4",
+                "label": "Question"
+            },
+            {
+                "type": "richtext",
+                "id": "answer_4",
+                "label": "Answer"
+            },
+            {
+                "type": "header",
+                "content": "Question 5"    
+            },
+            {
+                "type": "text",
+                "id": "question_5",
+                "label": "Question"
+            },
+            {
+                "type": "richtext",
+                "id": "answer_5",
+                "label": "Answer"
+            }
+        ]
+    }
+  ],
+  "presets": [
+    {
+        "name": "Support Tab Section"
+    }
+  ]
+}
+{% endschema %}
