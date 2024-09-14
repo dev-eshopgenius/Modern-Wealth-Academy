@@ -45,7 +45,14 @@ $('.tab__link').click(function() {
   }
 });
 $('.tab__link').first().click();
-
+$('.acc_link').click(function() {
+  $(this).toggleClass('active');
+  $(this).find('.icon').toggleClass('rotate');
+  $(this).next('.tab__content').slideToggle(300);
+  $('.acc_link').not(this).removeClass('active');
+  $('.acc_link').not(this).find('.icon').removeClass('rotate');
+  $('.acc_link').not(this).next('.tab__content').slideUp(300);
+});
 
 })
 

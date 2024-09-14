@@ -10,6 +10,14 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  .acc_link .icon-caret {
+    width: 19px;
+}
+.tab__content {
+    display: none; /* Hide content by default */
+    padding: 10px;
+    margin: 10px 0;
+}
 {%- endstyle -%}
 
 <div class="support_section--wrap">
@@ -24,15 +32,21 @@
         <div class="support_tabs--main">
             {% for block in section.blocks %}
                 <div class="support_tabs--items-wrap" id="{{ block.settings.tab_link  | handle}}">
-                    <h2 class="title">{{ block.settings.tab_link }}</h2>
+                    <h2 class="title">
+                        {{ block.settings.tab_link }}
+                    </h2>
                     <div class="support_tabs--items">
                         {% for i in (1..5) %}
                             {% capture question %}question_{{i}}{% endcapture %}
                             {% capture answer %}answer_{{i}}{% endcapture %}
-                            <div class="support_tabs--item">
-                              <h3 class="tab__link">{{ block.settings[question] }}</h3>
-                              <div class="tab__content">{{ block.settings[answer] }}</div>
-                            </div>
+                            {% if block.settings[question] != blank or block.settings[answer] != blank %}
+                                <div class="support_tabs--item">
+                                <h3 class="acc_link">{{ block.settings[question] }}
+                                <span>{% render 'icon-caret' %}</span>
+                                </h3>
+                                <div class="tab__content">{{ block.settings[answer] }}</div>
+                                </div>
+                            {% endif %}
                         {% endfor %}    
                     </div>
                 </div>
