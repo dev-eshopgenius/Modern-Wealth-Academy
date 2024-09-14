@@ -1246,12 +1246,23 @@ letter-spacing: -0.01em;font-family: "SelectaOT-Regular";
     gap: 10px;
 }
 .blog-event .product-grid {
-  padding-top: 1rem;
-}
+  padding-top: 1rem; 
+} 
 .blog-event .grid--2-col-tablet-down .grid__item {
   width: calc(100% - var(--grid-mobile-horizontal-spacing) / 2);
   max-width: calc(100% - var(--grid-mobile-horizontal-spacing) / 2);
 }
+.Past-highlights .grid--2-col-tablet-down .grid__item {
+  width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+  max-width: calc(100% - var(--grid-mobile-horizontal-spacing) / 2);
+}
+.blog-event .card--standard>.card__content .card__information {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.blog-event .article-card-wrapper .card__heading a {
+  font-size: 30px;}
+.featured-slider .card-article-event{    flex-direction: column !important;}
 .page-event .section+.section .banner-wrapper {
   padding: 3rem 1rem;}
   .multiple-featured-blog .collection .heading .title{    font-size: 30px;
