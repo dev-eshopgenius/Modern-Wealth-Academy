@@ -1073,9 +1073,9 @@ time{font-family: "SelectaOT-Regular"; border-top: 1px solid; border-right: 1px 
   margin: 0;}
   .blog-event .product-grid{padding-top: 10rem;;}
 
-  .menu-section {
+  /* .menu-section {
     display: none;
-}
+} */
 .business-sec1 .image-with-text__heading{font-size: 64px; line-height: 1 !important;}
 .business-sec1 .image-with-text__content{padding-left: 0;}
 .business-sec1 .image-with-text__text p{    color: inherit;
