@@ -23,14 +23,14 @@
         "heading_Rnz3YJ": {
           "type": "heading",
           "settings": {
-            "heading": "BECOME A COACH",
+            "heading": "SUPPORT",
             "heading_size": "h1"
           }
         },
         "text_9cVgNC": {
           "type": "text",
           "settings": {
-            "text": "Become a highly-paid, impactful & sought-after certified coach trained by Modern Wealth Academy",
+            "text": "Join our academy and unlock the very best of yourself.",
             "text_style": "body"
           }
         },
@@ -53,8 +53,8 @@
       ],
       "settings": {
         "section_css_class": "stock-section-banner1 support-sec1",
-        "image": "shopify:\/\/shop_images\/Vector_2.png",
-        "banner_bg": "#a49898",
+        "image": "shopify:\/\/shop_images\/support-bg.png",
+        "banner_bg": "#1f1919",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-left",

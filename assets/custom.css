@@ -1214,10 +1214,42 @@ img {
 
 .support-sec1.stock-section-banner1 .banner__text p{    font-size: 16px;  } 
 .support-sec1.stock-section-banner1 .banner__media img{      height: 90%;    top: auto; bottom: 0;  object-position: bottom right;}
+.support-sec1 .banner__box{padding-bottom: 0;}
+.support_section--wrap{background-color: #F3F3EB;}
+.support_tabs--wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 6rem;
+}
+.support_tabs--items-wrap .title{margin: 0;font-family: "RecklessNeue-Book"  !important; font-size: 32px;}  
+.tab__link{font-family:RecklessNeue-Book;  padding: 5px 0;  font-size: 14px; cursor: pointer;}
+.support_tabs--wrap-inner{width: 100%;}
+.support_tab--link--wrap {
+  width: 30%;
+}
+.support_tabs--items-wrap {
+  padding: 0    0 3rem;
+}
+.support_tabs--items {padding-top: 1rem;
+}
+h3.acc_link {cursor: pointer; margin:2rem 0 0;padding: 25px 35px 25px 20px; border-radius: 12px; background-color: #fff; position: relative;font-family: "WhyteInktrap-Bold"; font-size: 20px;
+}
+h3.acc_link span{position: absolute; top: 25px; right: 20px;}
+h3.acc_link.active span svg{    transform: rotate(180deg);}
+.support_tabs--items .tab__content{margin:-3rem 0 0; padding: 2rem ;border-radius:0 0 12px 12px; background-color: #FFF;}
+.tab__link.active {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 9px;
+}
+
+
 
 
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
+  .support-sec1.stock-section-banner1 .banner__media img{    right: 0;    max-width: 62%;
+    left: auto;}
  .stock-multisec .multicolumn-list.grid--2-col-tablet-down .grid__item {
       width: calc(33% - var(--grid-desktop-horizontal-spacing) / 2);
   }
@@ -1301,6 +1333,23 @@ img {
 
 
 @media (max-width:749px){
+  .support_tab--link--wrap {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+.support_tabs--items {
+  padding-top: 0;
+}
+.support_tabs--items-wrap .title{    font-size: 25px;}
+h3.acc_link span{    right: 16px;}
+.tab__link{width: 100%;
+  white-space: nowrap;}
+  h3.acc_link{    font-size: 16px;}
+  .support_tabs--wrap{gap: 2rem;
+    flex-direction: column;}
   .why-partner-sec .multicolumn-list li{min-width: 250px;}
   .title-centerd .title-wrapper-with-link h2, .why-partner-sec .title-wrapper-with-link h2 {
     font-size: 40px;

@@ -21,14 +21,14 @@
 {%- endstyle -%}
 
 <div class="support_section--wrap">
-  <div class="support_section--main section-{{ section.id }}-padding">
+  <div class="support_section--main section-{{ section.id }}-padding page-width">
     <div class="support_tabs--wrap">
      <div class="support_tab--link--wrap">
        {% for block in section.blocks %}
          <div data-target="#{{ block.settings.tab_link | handle }}" class="tab__link">{{ block.settings.tab_link }}</div>
        {% endfor %} 
     </div>
-    <div class="support_tabs--wrap">
+    <div class="support_tabs--wrap-inner">
         <div class="support_tabs--main">
             {% for block in section.blocks %}
                 <div class="support_tabs--items-wrap" id="{{ block.settings.tab_link  | handle}}">
