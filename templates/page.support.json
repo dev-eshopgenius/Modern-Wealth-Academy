@@ -66,10 +66,107 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "support_tab_fF6NPF": {
+      "type": "support-tab",
+      "blocks": {
+        "tabs_TBkANT": {
+          "type": "tabs",
+          "settings": {
+            "tab_link": "General",
+            "question_1": "What is Modern Wealth Academy?",
+            "answer_1": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_2": "How do I access my courses?",
+            "answer_2": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_3": "Can I preview a course before enrolling?",
+            "answer_3": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_4": "What do I need to participate in courses?",
+            "answer_4": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_5": "",
+            "answer_5": ""
+          }
+        },
+        "tabs_XHzAkq": {
+          "type": "tabs",
+          "settings": {
+            "tab_link": "Programs",
+            "question_1": "What types of programs does Modern Wealth Academy offer?",
+            "answer_1": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_2": "Are there any prerequisites for joining a program?",
+            "answer_2": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_3": "Can I enroll in multiple programs simultaneously?",
+            "answer_3": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_4": "How long does it take to complete a program?",
+            "answer_4": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_5": "",
+            "answer_5": ""
+          }
+        },
+        "tabs_TY8zGY": {
+          "type": "tabs",
+          "settings": {
+            "tab_link": "Pricing",
+            "question_1": "How much do courses at Modern Wealth Academy cost?",
+            "answer_1": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_2": "Are there any discounts available for courses?",
+            "answer_2": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_3": "What payment methods are accepted?",
+            "answer_3": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_4": "Are there discounts available?",
+            "answer_4": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_5": "",
+            "answer_5": ""
+          }
+        },
+        "tabs_YzYePa": {
+          "type": "tabs",
+          "settings": {
+            "tab_link": "Coaches",
+            "question_1": "Who are the coaches at Modern Wealth Academy?",
+            "answer_1": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_2": "Can I choose my coach?",
+            "answer_2": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_3": "How often can I interact with my coach?",
+            "answer_3": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_4": "What qualifications do your coaches have?",
+            "answer_4": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_5": "",
+            "answer_5": ""
+          }
+        },
+        "tabs_ad9xPG": {
+          "type": "tabs",
+          "settings": {
+            "tab_link": "Refunds & Cancellations",
+            "question_1": "What is your refund policy?",
+            "answer_1": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_2": "Can I cancel my enrollment?",
+            "answer_2": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_3": "What happens if a course is canceled by the academy?",
+            "answer_3": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_4": "How do I request a refund or cancellation?",
+            "answer_4": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<\/p>",
+            "question_5": "",
+            "answer_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "tabs_TBkANT",
+        "tabs_XHzAkq",
+        "tabs_TY8zGY",
+        "tabs_YzYePa",
+        "tabs_ad9xPG"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_8T9grM"
+    "image_banner_8T9grM",
+    "support_tab_fF6NPF"
   ]
 }
