@@ -43,6 +43,16 @@
 -%}
 
 <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+ <div class="tittle__wrapper">
+  {% if section.settings.sub_title != blank %}
+    <div class="sub-title">{{ section.settings.sub_title }}</div>
+  {% endif  %}
+  {% if section.settings.title != blank %}
+  <h2 class="title inline-richtext">
+    {{ section.settings.title }}
+  </h2>
+  {% endif %}
+  </div>
   <div class="multirow__inner page-width">
     {%- for block in section.blocks -%}
       <div
@@ -115,6 +125,17 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Multicolumn",
+      "label": "t:sections.multicolumn.settings.title.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "sub_title",
+      "label": "Sub title"
+    },
     {
       "type": "select",
       "id": "image_height",
