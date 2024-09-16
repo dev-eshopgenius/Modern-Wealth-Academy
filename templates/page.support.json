@@ -38,7 +38,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "CONTACT",
-            "button_link_1": "",
+            "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -52,11 +52,11 @@
         "buttons_3gUx7L"
       ],
       "settings": {
-        "section_css_class": "Type your own CSS class",
+        "section_css_class": "stock-section-banner1 support-sec1",
         "image": "shopify:\/\/shop_images\/Vector_2.png",
         "banner_bg": "#a49898",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
