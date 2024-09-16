@@ -165,53 +165,229 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_a7eMLd": {
-      "type": "collapsible-content",
+    "book_a_coach_collap_EGkwi6": {
+      "type": "book-a-coach-collap",
       "blocks": {
-        "collapsible_row_VzCMU3": {
+        "collapsible_row_aMadif": {
           "type": "collapsible_row",
           "settings": {
             "heading": "You seek broader impact",
-            "icon": "recycle",
             "row_content": "<p>not just for yourself but for your community and humanity at large.<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/icon_6.svg",
             "page": ""
           }
         },
-        "collapsible_row_Q9VELm": {
+        "collapsible_row_RNVfy7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "You're dedicated to growth",
+            "row_content": "<p>always seeking to evolve and expand your fullest potential.<br\/><\/p>",
+            "icon_image": "shopify:\/\/shop_images\/icon_6.svg",
             "page": ""
           }
         },
-        "collapsible_row_hx6PGf": {
+        "collapsible_row_haeMCb": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "You seek freedom",
+            "row_content": "<p>financial, lifestyle, and the freedom to live a life of purpose and impact.<br\/><\/p>",
+            "icon_image": "shopify:\/\/shop_images\/icon_6.svg",
             "page": ""
           }
         },
-        "collapsible_row_p89dKE": {
+        "collapsible_row_wJjPa8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "You're already a coach or consultant",
+            "row_content": "<p>who wants to scale your business, attract more clients, and significantly upgrade your skills.<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/icon_6.svg",
             "page": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_VzCMU3",
-        "collapsible_row_Q9VELm",
-        "collapsible_row_hx6PGf",
-        "collapsible_row_p89dKE"
+        "collapsible_row_aMadif",
+        "collapsible_row_RNVfy7",
+        "collapsible_row_haeMCb",
+        "collapsible_row_wJjPa8"
       ],
-      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "Becoming a coach is right for you if",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "image": "shopify:\/\/shop_images\/Image_3_6eed749e-06e4-478d-9793-be37ff65ddfc.png",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_9GmMUn": {
+      "type": "multirow",
+      "blocks": {
+        "row_w6i6jE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img.png",
+            "caption": "<svg width=\"40\" height=\"40\" viewbox=\"0 0 40 40\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"40\" height=\"40\" rx=\"20\" fill=\"#2DE17A\"><\/rect>\n<path d=\"M13.3181 27.0051C9.95813 27.0051 7.59813 24.4451 7.59813 19.7051C7.59813 14.9651 10.0781 12.4051 13.3181 12.4051C16.5581 12.4051 19.0181 14.9651 19.0181 19.7051C19.0181 24.4451 16.6581 27.0051 13.3181 27.0051ZM13.3181 24.8051C15.0581 24.8051 16.3381 23.3251 16.3381 19.7051C16.3381 16.2051 15.0381 14.6051 13.3181 14.6051C11.5581 14.6051 10.2781 16.2051 10.2781 19.7051C10.2781 23.3051 11.5581 24.8051 13.3181 24.8051ZM26.2152 26.7051H23.7352V17.7451C23.7352 16.7651 23.8952 16.0851 24.1952 15.4251H23.1552C22.5952 17.0651 21.6152 18.1651 19.9752 18.2851V15.6651C21.7552 15.4451 23.2952 14.4851 24.0952 12.7051H26.2152V26.7051Z\" fill=\"#1F1919\"><\/path>\n<\/svg>",
+            "heading": "Live a life by design",
+            "text": "<p>Craft a lifestyle where every moment is intentional, giving you the freedom to savor what truly matters.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_iPer8r": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DTS_SOFT_LUXE_Daniel_Faro_10804.png",
+            "caption": "<svg width=\"40\" height=\"40\" viewbox=\"0 0 40 40\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"40\" height=\"40\" rx=\"20\" fill=\"#2DE17A\"><\/rect>\n<path d=\"M13.74 27.0051C10.38 27.0051 8.02 24.4451 8.02 19.7051C8.02 14.9651 10.5 12.4051 13.74 12.4051C16.98 12.4051 19.44 14.9651 19.44 19.7051C19.44 24.4451 17.08 27.0051 13.74 27.0051ZM13.74 24.8051C15.48 24.8051 16.76 23.3251 16.76 19.7051C16.76 16.2051 15.46 14.6051 13.74 14.6051C11.98 14.6051 10.7 16.2051 10.7 19.7051C10.7 23.3051 11.98 24.8051 13.74 24.8051ZM30.817 26.7051H20.957V24.0051C26.077 20.9851 28.057 19.2451 28.057 17.0251C28.057 15.4851 27.077 14.6251 25.797 14.6251C24.137 14.6251 23.397 16.0051 23.377 17.6251L20.837 17.2251C20.897 14.7051 22.557 12.4051 25.857 12.4051C28.917 12.4051 30.717 14.2251 30.717 16.7851C30.717 18.1651 30.257 19.3251 29.437 20.3451C28.237 21.7851 26.017 23.0251 22.957 24.6051L23.497 25.5251C24.277 24.9651 25.157 24.4651 26.997 24.4651H30.817V26.7051Z\" fill=\"#1F1919\"><\/path>\n<\/svg>",
+            "heading": "Make a mark in the world",
+            "text": "<p>See the ripple effect of your work. From igniting big dreams in your clients to tiny shifts, you’re making the world a brighter place.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_MmJ4pP": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/37.png",
+            "caption": "<svg width=\"40\" height=\"40\" viewbox=\"0 0 40 40\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"40\" height=\"40\" rx=\"20\" fill=\"#2DE17A\"><\/rect>\n<path d=\"M13.74 27.007C10.38 27.007 8.02 24.447 8.02 19.707C8.02 14.967 10.5 12.407 13.74 12.407C16.98 12.407 19.44 14.967 19.44 19.707C19.44 24.447 17.08 27.007 13.74 27.007ZM13.74 24.807C15.48 24.807 16.76 23.327 16.76 19.707C16.76 16.207 15.46 14.607 13.74 14.607C11.98 14.607 10.7 16.207 10.7 19.707C10.7 23.307 11.98 24.807 13.74 24.807ZM25.817 27.007C22.757 27.007 20.897 25.367 20.577 22.707L23.177 22.167C23.317 23.827 24.257 24.847 25.817 24.847C27.217 24.847 28.217 24.067 28.217 22.727C28.217 21.507 27.297 20.667 25.817 20.667H24.617V18.567H25.797C26.977 18.567 27.977 17.827 27.977 16.547C27.977 15.327 26.997 14.567 25.817 14.567C24.497 14.567 23.657 15.487 23.557 16.867L20.997 16.447C21.217 14.227 22.897 12.407 25.817 12.407C28.757 12.407 30.497 14.047 30.497 16.047C30.497 18.007 29.017 18.907 27.157 19.027V19.967C29.337 20.107 30.797 21.247 30.797 23.147C30.797 25.447 28.917 27.007 25.817 27.007Z\" fill=\"#1F1919\"><\/path>\n<\/svg>",
+            "heading": "Go beyond a career,\u2028gain a mission",
+            "text": "<p>Turn your passion for growth into a path that not only secures your future but also serves a larger purpose.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_w6i6jE",
+        "row_iPer8r",
+        "row_MmJ4pP"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "large",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "align-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_g68ChA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RyWqhY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_14_1.png",
+            "title": "“Description lorem ipsum dolor sit amet, consectetur adipiscing elit.”",
+            "text": "<p>A-Fest is full of deeply passionate people who are on fire to make a difference in this world. It was an absolute pleasure to spend time around a group that is so positive and full of life<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6nJkzf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_11_1.png",
+            "title": "“Description lorem ipsum dolor sit amet, consectetur adipiscing elit.”",
+            "text": "<p>A-Fest is full of deeply passionate people who are on fire to make a difference in this world. It was an absolute pleasure to spend time around a group that is so positive and full of life<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JYBw4h": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_7_2.png",
+            "title": "“Description lorem ipsum dolor sit amet, consectetur adipiscing elit.”",
+            "text": "<p>A-Fest is full of deeply passionate people who are on fire to make a difference in this world. It was an absolute pleasure to spend time around a group that is so positive and full of life<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RyWqhY",
+        "column_6nJkzf",
+        "column_JYBw4h"
+      ],
+      "settings": {
+        "section_css_class": "Type your own CSS class",
+        "title": "20+ Coaches Certified",
+        "sub_title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "book_a_coach_collap_8UeCXd": {
+      "type": "book-a-coach-collap",
+      "blocks": {
+        "collapsible_row_FdW6eE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Cutting-edge training & skills",
+            "row_content": "<p>Be at the forefront of coaching with modern methodologies and tools. Stay ahead, solidifying your position as an unparalleled expert in your field.<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/icon_6.svg",
+            "page": ""
+          }
+        },
+        "collapsible_row_3inwtY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hands on coaching experience",
+            "row_content": "<p>Not just lessons, but lived experiences. Leave confidently equipped to create profound transformations in anyone.<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/icon_6.svg",
+            "page": ""
+          }
+        },
+        "collapsible_row_wrqnag": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Heartfelt community support",
+            "row_content": "<p>More than just peers – a family. Embrace the collective wisdom, support, and encouragement of a community that understands your journey.<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/icon_6.svg",
+            "page": ""
+          }
+        },
+        "collapsible_row_yfwaVp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Business & client attraction tools",
+            "row_content": "<p>From landing your ideal clients to guiding them effectively, we’ve got you covered with intuitive tools and strategies.<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/icon_6.svg",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_FdW6eE",
+        "collapsible_row_3inwtY",
+        "collapsible_row_wrqnag",
+        "collapsible_row_yfwaVp"
+      ],
       "settings": {
         "caption": "",
         "heading": "Becoming a coach is right for you if",
@@ -220,12 +396,141 @@
         "layout": "none",
         "color_scheme": "",
         "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image": "shopify:\/\/shop_images\/Image_3_6eed749e-06e4-478d-9793-be37ff65ddfc.png",
+        "image": "shopify:\/\/shop_images\/DTS_MOTHERLY_Shauna_Summers_10718.png",
         "image_ratio": "adapt",
-        "desktop_layout": "image_first",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "multicolumn_jWKmy3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fPPhb7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_Box_1_f2042a95-3732-482c-b734-fcb5a8559ea8.png",
+            "title": "Pick your category",
+            "text": "<p>Select a certification specialization tailored to your unique dreams and vision.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PaCBLK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_Box_2_00248b70-ad93-411d-bfb8-71280f651f99.png",
+            "title": "Quick Application",
+            "text": "<p>Get started with our user-friendly online application. It’s straightforward & takes under 2 minutes!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pAJpPL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_Box_1_1.png",
+            "title": "Begin training",
+            "text": "<p>Dive into online, hands-on training for real-world growth — in under 3 hours a week.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_U3Et8t": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_Box_1_2.png",
+            "title": "Get certified",
+            "text": "<p>Complete your journey and emerge as a distinguished MWA-certified professional.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fPPhb7",
+        "column_PaCBLK",
+        "column_pAJpPL",
+        "column_U3Et8t"
+      ],
+      "settings": {
+        "section_css_class": "Type your own CSS class",
+        "title": "Here’s how it works",
+        "sub_title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_jmbk9E": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_tnmDWW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What support is available for my team?",
+            "icon": "none",
+            "row_content": "<p>“Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus. Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.”<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kYYJPR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does the program entail?",
+            "icon": "none",
+            "row_content": "<p>“Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus. Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.”<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_V8XH97": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are your pricing plans?",
+            "icon": "none",
+            "row_content": "<p>“Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus. Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.”<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yx847P": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why should I sign my organisation up for MWA Business?",
+            "icon": "none",
+            "row_content": "<p>“Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus. Description lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, lacus in faucibus.”<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_tnmDWW",
+        "collapsible_row_kYYJPR",
+        "collapsible_row_V8XH97",
+        "collapsible_row_yx847P"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-2",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 76,
+        "padding_bottom": 100
       }
     }
   },
@@ -234,6 +539,11 @@
     "image_banner_8T9grM",
     "image_with_text_KAWXxG",
     "multicolumn_xF4FTE",
-    "collapsible_content_a7eMLd"
+    "book_a_coach_collap_EGkwi6",
+    "multirow_9GmMUn",
+    "multicolumn_g68ChA",
+    "book_a_coach_collap_8UeCXd",
+    "multicolumn_jWKmy3",
+    "collapsible_content_jmbk9E"
   ]
 }
