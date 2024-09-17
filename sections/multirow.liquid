@@ -42,13 +42,13 @@
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
- <div class="tittle__wrapper">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} ">
+ <div class="tittle__wrapper page-width center">
   {% if section.settings.sub_title != blank %}
     <div class="sub-title">{{ section.settings.sub_title }}</div>
   {% endif  %}
   {% if section.settings.title != blank %}
-  <h2 class="title inline-richtext">
+  <h2 class="title inline-richtext f-size64 ">
     {{ section.settings.title }}
   </h2>
   {% endif %}

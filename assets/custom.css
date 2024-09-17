@@ -1095,6 +1095,7 @@ time{font-family: "SelectaOT-Regular"; border-top: 1px solid; border-right: 1px 
 .why-partner-sec .sub-title{text-align: center;}
 .rate-sec .sub-title{    font-size: 16px;margin-bottom: 1.5rem;
   font-family: "RecklessNeue-Book";}
+  .sub-title,
   .why-partner-sec .sub-title{font-size: 16px;margin-bottom: .5rem;
     font-family: "RecklessNeue-Book";}
 .title-centerd .title-wrapper-with-link,
@@ -1264,6 +1265,7 @@ h3.acc_link.active span svg{    transform: rotate(180deg);}
   max-width: calc(25% - 14px);
 }
 .here-section.background-none .multicolumn-list .multicolumn-card__info{padding-left: .8rem; padding-right: .8rem;}
+.f-size64,
 .f-size64 .collapsible-content__heading{font-size: 64px;}
 .f-size48 .title{font-size: 48px !important ;}
 .f-size48 .sub-title{font-family: "RecklessNeue-Book";    letter-spacing: 0;}
@@ -1302,8 +1304,31 @@ h3.acc_link.active span svg{    transform: rotate(180deg);}
   .becoming-sec2.becoming-sec1 .collapsible-content__grid-item {
     padding-left: 0;padding-right: 7rem;
 }
-
-
+.multirow .title{margin: 0 0 5rem;}
+.image-with-text__grid{background: var(--Dark, #1F1919); border-radius: 20px; padding: 2rem;color: #F3F3EB;    max-width: 1000px;
+  margin: 0 auto;}
+ .multirow__inner .image-with-text__text-item.grid__item{width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);}
+ .multirow__inner .image-with-text__content *{color: #F3F3EB;}
+ .multirow__inner .image-with-text__text--caption {
+  width: 40px;
+  height: 40px;
+  margin: 0 0 10px;
+  text-align: center;
+  background: #2DE17A;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1F1919;
+  font-size: 20px !important;
+  font-family: WhyteInktrap-Medium;
+}
+.multirow__inner .image-with-text__grid.grid{margin-bottom :3rem;}
+.multirow__inner .image-with-text__content .image-with-text__heading{font-size: 20px;}
+.multirow__inner .image-with-text__content p{font-size: 12px;font-family: "RecklessNeue-Book"}
+.multirow__inner .image-with-text__text.rte.body{    margin-top: 1rem;}
+.multirow__inner .media>img{border-radius: 20px;}
+.multirow__inner .image-with-text .gradient{background: transparent;}
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .support-sec1.stock-section-banner1 .banner__media img{    right: 0;    max-width: 62%;
