@@ -1305,7 +1305,7 @@ h3.acc_link.active span svg{    transform: rotate(180deg);}
     padding-left: 0;padding-right: 7rem;
 }
 .multirow .title{margin: 0 0 5rem;}
-.image-with-text__grid{background: var(--Dark, #1F1919); border-radius: 20px; padding: 2rem;color: #F3F3EB;    max-width: 1000px;
+.multirow .image-with-text__grid{background: var(--Dark, #1F1919); border-radius: 20px; padding: 2rem;color: #F3F3EB;    max-width: 1000px;
   margin: 0 auto;}
  .multirow__inner .image-with-text__text-item.grid__item{width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);}
  .multirow__inner .image-with-text__content *{color: #F3F3EB;}
