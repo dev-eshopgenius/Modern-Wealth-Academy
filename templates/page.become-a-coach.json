@@ -90,7 +90,7 @@
         "text_dwKENP"
       ],
       "settings": {
-        "add_class": "",
+        "add_class": "life-section",
         "image": "shopify:\/\/shop_images\/Frame_427320170_5de7648a-1f9f-4bed-9021-b074b3591254.png",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -147,7 +147,7 @@
         "column_AR6Hnk"
       ],
       "settings": {
-        "section_css_class": "why-partner-sec",
+        "section_css_class": "title-centerd f-size48 coaches-section",
         "title": "Dream bigger, live even bigger",
         "sub_title": "The Modern Wealth Academy Difference",
         "heading_size": "h1",
@@ -161,8 +161,8 @@
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 92,
+        "padding_bottom": 72
       }
     },
     "book_a_coach_collap_EGkwi6": {
@@ -212,12 +212,12 @@
         "collapsible_row_wJjPa8"
       ],
       "settings": {
-        "section_css_class": "Type your own CSS class",
+        "section_css_class": "becoming-sec2 becoming-sec1",
         "caption": "",
-        "heading": "Becoming a coach is right for you if",
+        "heading": "Becoming a coach is <br> right for you if",
         "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
+        "heading_alignment": "left",
+        "layout": "section",
         "color_scheme": "background-2",
         "container_color_scheme": "",
         "image": "shopify:\/\/shop_images\/Image_3_6eed749e-06e4-478d-9793-be37ff65ddfc.png",
@@ -234,7 +234,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/img.png",
-            "caption": "<svg width=\"40\" height=\"40\" viewbox=\"0 0 40 40\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"40\" height=\"40\" rx=\"20\" fill=\"#2DE17A\"><\/rect>\n<path d=\"M13.3181 27.0051C9.95813 27.0051 7.59813 24.4451 7.59813 19.7051C7.59813 14.9651 10.0781 12.4051 13.3181 12.4051C16.5581 12.4051 19.0181 14.9651 19.0181 19.7051C19.0181 24.4451 16.6581 27.0051 13.3181 27.0051ZM13.3181 24.8051C15.0581 24.8051 16.3381 23.3251 16.3381 19.7051C16.3381 16.2051 15.0381 14.6051 13.3181 14.6051C11.5581 14.6051 10.2781 16.2051 10.2781 19.7051C10.2781 23.3051 11.5581 24.8051 13.3181 24.8051ZM26.2152 26.7051H23.7352V17.7451C23.7352 16.7651 23.8952 16.0851 24.1952 15.4251H23.1552C22.5952 17.0651 21.6152 18.1651 19.9752 18.2851V15.6651C21.7552 15.4451 23.2952 14.4851 24.0952 12.7051H26.2152V26.7051Z\" fill=\"#1F1919\"><\/path>\n<\/svg>",
+            "caption": "",
             "heading": "Live a life by design",
             "text": "<p>Craft a lifestyle where every moment is intentional, giving you the freedom to savor what truly matters.<\/p>",
             "button_label": "",
@@ -245,7 +245,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/DTS_SOFT_LUXE_Daniel_Faro_10804.png",
-            "caption": "<svg width=\"40\" height=\"40\" viewbox=\"0 0 40 40\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"40\" height=\"40\" rx=\"20\" fill=\"#2DE17A\"><\/rect>\n<path d=\"M13.74 27.0051C10.38 27.0051 8.02 24.4451 8.02 19.7051C8.02 14.9651 10.5 12.4051 13.74 12.4051C16.98 12.4051 19.44 14.9651 19.44 19.7051C19.44 24.4451 17.08 27.0051 13.74 27.0051ZM13.74 24.8051C15.48 24.8051 16.76 23.3251 16.76 19.7051C16.76 16.2051 15.46 14.6051 13.74 14.6051C11.98 14.6051 10.7 16.2051 10.7 19.7051C10.7 23.3051 11.98 24.8051 13.74 24.8051ZM30.817 26.7051H20.957V24.0051C26.077 20.9851 28.057 19.2451 28.057 17.0251C28.057 15.4851 27.077 14.6251 25.797 14.6251C24.137 14.6251 23.397 16.0051 23.377 17.6251L20.837 17.2251C20.897 14.7051 22.557 12.4051 25.857 12.4051C28.917 12.4051 30.717 14.2251 30.717 16.7851C30.717 18.1651 30.257 19.3251 29.437 20.3451C28.237 21.7851 26.017 23.0251 22.957 24.6051L23.497 25.5251C24.277 24.9651 25.157 24.4651 26.997 24.4651H30.817V26.7051Z\" fill=\"#1F1919\"><\/path>\n<\/svg>",
+            "caption": "",
             "heading": "Make a mark in the world",
             "text": "<p>See the ripple effect of your work. From igniting big dreams in your clients to tiny shifts, you’re making the world a brighter place.<\/p>",
             "button_label": "",
@@ -270,10 +270,10 @@
         "row_MmJ4pP"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "sub_title": "",
+        "title": "What your life could look like",
+        "sub_title": "Become a Modern Wealth Academy Coach",
         "image_height": "adapt",
-        "desktop_image_width": "large",
+        "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
@@ -397,7 +397,7 @@
         "heading": "Becoming a coach is <br>\n right for you if",
         "heading_size": "h1",
         "heading_alignment": "left",
-        "layout": "none",
+        "layout": "section",
         "color_scheme": "background-2",
         "container_color_scheme": "",
         "image": "shopify:\/\/shop_images\/DTS_MOTHERLY_Shauna_Summers_10718.png",
