@@ -38,7 +38,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "CONTACT",
-            "button_link_1": "",
+            "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -52,11 +52,11 @@
         "buttons_3gUx7L"
       ],
       "settings": {
-        "section_css_class": "Type your own CSS class",
+        "section_css_class": "stock-section-banner1 support-sec1",
         "image": "shopify:\/\/shop_images\/Vector_2.png",
         "banner_bg": "#a49898",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -99,8 +99,8 @@
         "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -158,7 +158,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -212,12 +212,13 @@
         "collapsible_row_wJjPa8"
       ],
       "settings": {
+        "section_css_class": "Type your own CSS class",
         "caption": "",
         "heading": "Becoming a coach is right for you if",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "container_color_scheme": "",
         "image": "shopify:\/\/shop_images\/Image_3_6eed749e-06e4-478d-9793-be37ff65ddfc.png",
         "image_ratio": "adapt",
@@ -255,7 +256,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/37.png",
-            "caption": "<svg width=\"40\" height=\"40\" viewbox=\"0 0 40 40\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"40\" height=\"40\" rx=\"20\" fill=\"#2DE17A\"><\/rect>\n<path d=\"M13.74 27.007C10.38 27.007 8.02 24.447 8.02 19.707C8.02 14.967 10.5 12.407 13.74 12.407C16.98 12.407 19.44 14.967 19.44 19.707C19.44 24.447 17.08 27.007 13.74 27.007ZM13.74 24.807C15.48 24.807 16.76 23.327 16.76 19.707C16.76 16.207 15.46 14.607 13.74 14.607C11.98 14.607 10.7 16.207 10.7 19.707C10.7 23.307 11.98 24.807 13.74 24.807ZM25.817 27.007C22.757 27.007 20.897 25.367 20.577 22.707L23.177 22.167C23.317 23.827 24.257 24.847 25.817 24.847C27.217 24.847 28.217 24.067 28.217 22.727C28.217 21.507 27.297 20.667 25.817 20.667H24.617V18.567H25.797C26.977 18.567 27.977 17.827 27.977 16.547C27.977 15.327 26.997 14.567 25.817 14.567C24.497 14.567 23.657 15.487 23.557 16.867L20.997 16.447C21.217 14.227 22.897 12.407 25.817 12.407C28.757 12.407 30.497 14.047 30.497 16.047C30.497 18.007 29.017 18.907 27.157 19.027V19.967C29.337 20.107 30.797 21.247 30.797 23.147C30.797 25.447 28.917 27.007 25.817 27.007Z\" fill=\"#1F1919\"><\/path>\n<\/svg>",
+            "caption": "",
             "heading": "Go beyond a career,\u2028gain a mission",
             "text": "<p>Turn your passion for growth into a path that not only secures your future but also serves a larger purpose.<\/p>",
             "button_label": "",
@@ -269,6 +270,8 @@
         "row_MmJ4pP"
       ],
       "settings": {
+        "title": "Multicolumn",
+        "sub_title": "",
         "image_height": "adapt",
         "desktop_image_width": "large",
         "heading_size": "h1",
@@ -277,8 +280,8 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "align-right",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
+        "section_color_scheme": "background-2",
+        "row_color_scheme": "background-2",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -324,7 +327,7 @@
         "column_JYBw4h"
       ],
       "settings": {
-        "section_css_class": "Type your own CSS class",
+        "section_css_class": "title-centerd f-size28 coaches-section",
         "title": "20+ Coaches Certified",
         "sub_title": "",
         "heading_size": "h1",
@@ -335,11 +338,11 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 88,
+        "padding_bottom": 60
       }
     },
     "book_a_coach_collap_8UeCXd": {
@@ -389,18 +392,19 @@
         "collapsible_row_yfwaVp"
       ],
       "settings": {
+        "section_css_class": "becoming-sec2",
         "caption": "",
-        "heading": "Becoming a coach is right for you if",
+        "heading": "Becoming a coach is <br>\n right for you if",
         "heading_size": "h1",
         "heading_alignment": "left",
         "layout": "none",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "container_color_scheme": "",
         "image": "shopify:\/\/shop_images\/DTS_MOTHERLY_Shauna_Summers_10718.png",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 76,
+        "padding_bottom": 72
       }
     },
     "multicolumn_jWKmy3": {
@@ -410,7 +414,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Logo_Box_1_f2042a95-3732-482c-b734-fcb5a8559ea8.png",
-            "title": "Pick your category",
+            "title": "<span>1<\/span>  Pick your category",
             "text": "<p>Select a certification specialization tailored to your unique dreams and vision.<\/p>",
             "link_label": "",
             "link": ""
@@ -420,7 +424,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Logo_Box_2_00248b70-ad93-411d-bfb8-71280f651f99.png",
-            "title": "Quick Application",
+            "title": "<span>2<\/span>  Quick Application",
             "text": "<p>Get started with our user-friendly online application. It’s straightforward & takes under 2 minutes!<\/p>",
             "link_label": "",
             "link": ""
@@ -430,7 +434,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Logo_Box_1_1.png",
-            "title": "Begin training",
+            "title": "<span>3<\/span>  Begin training",
             "text": "<p>Dive into online, hands-on training for real-world growth — in under 3 hours a week.<\/p>",
             "link_label": "",
             "link": ""
@@ -440,7 +444,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Logo_Box_1_2.png",
-            "title": "Get certified",
+            "title": "<span>4<\/span> Get certified",
             "text": "<p>Complete your journey and emerge as a distinguished MWA-certified professional.<\/p>",
             "link_label": "",
             "link": ""
@@ -454,7 +458,7 @@
         "column_U3Et8t"
       ],
       "settings": {
-        "section_css_class": "Type your own CSS class",
+        "section_css_class": "title-centerd font-size36 here-section",
         "title": "Here’s how it works",
         "sub_title": "",
         "heading_size": "h1",
@@ -465,10 +469,10 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 76,
         "padding_bottom": 36
       }
     },
@@ -519,6 +523,7 @@
         "collapsible_row_yx847P"
       ],
       "settings": {
+        "section_css_class": "f-size64 faq-section",
         "caption": "",
         "heading": "FAQs",
         "heading_size": "h0",
@@ -529,7 +534,7 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 76,
+        "padding_top": 56,
         "padding_bottom": 100
       }
     }
