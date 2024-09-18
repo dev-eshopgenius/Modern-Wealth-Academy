@@ -1361,6 +1361,13 @@ main#MainContent {
   text-transform: uppercase;
   letter-spacing: 0;
   font-family: "SelectaOT-Regular";}
+.contact .form__message .form-status{color: red;
+  font-family: WhyteInktrap-Medium !important;
+  font-weight: 300;}
+  .contact .form-status-list *{color: red;font-family: WhyteInktrap-Medium !important;}
+  .contact .field small#ContactForm-email-error{display: none;}
+
+
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .support-sec1.stock-section-banner1 .banner__media img{    right: 0;    max-width: 62%;
