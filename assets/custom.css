@@ -417,7 +417,7 @@ button.c-btn {
   letter-spacing: -5px !important;
 }
 section.footersecion .page-width {
-    max-width: 1375px !important;
+    /* max-width: 1375px !important; */
 }
 .page-width.footlinks li#col1 p {
     margin: 0px;
@@ -1304,6 +1304,7 @@ h3.acc_link.active span svg{    transform: rotate(180deg);}
   .becoming-sec2.becoming-sec1 .collapsible-content__grid-item {
     padding-left: 0;padding-right: 7rem;
 }
+
 .multirow .title{margin: 0 0 5rem;}
 .multirow .image-with-text__grid{background: var(--Dark, #1F1919); border-radius: 20px; padding: 2rem;color: #F3F3EB;    max-width: 1000px;
   margin: 0 auto;}
@@ -1329,6 +1330,37 @@ h3.acc_link.active span svg{    transform: rotate(180deg);}
 .multirow__inner .image-with-text__text.rte.body{    margin-top: 1rem;}
 .multirow__inner .media>img{border-radius: 20px;}
 .multirow__inner .image-with-text .gradient{background: transparent;}
+.page-page-contact,
+.page-404 {background:#1F1919;}
+main#MainContent {
+  min-height: 600px;
+}
+.template-404 p{font-size: 300px; line-height: 1; color: #fff;font-family: "WhyteInktrap-Bold"; margin: 15rem 0 0;}
+.template-404 .title{    color: #F3F3EB;
+  font-size: 20px;
+  line-height: 1;
+  margin: 0;
+  font-family: "WhyteInktrap-Medium";}
+  .template-404 .title + .button{    background: #2DE17A;
+    color: #1F1919;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-size: 10px;font-family: "SelectaOT-Regular";    min-height: 42px;
+    min-width: 135px; margin-top: 5rem; border: 0;
+    padding: 10px;}
+    .template-404{padding-bottom: 10rem;}
+    .page-page-contact .rte{color: #F3F3EB;  font-size: 24px;font-family: "RecklessNeue-Book";}
+.page-page-contact .main-page-title{color: #F3F3EB; font-size: 64px; font-family: "WhyteInktrap-Medium";    margin: 0;
+  text-transform: uppercase;}
+.contact-innerpage{background-color: transparent;}
+.contact .field__label{margin-bottom: 6px;}
+.contact .field,
+.contact__fields .field{    flex-direction: column-reverse;}
+.contact .contact__button .button{width: 100%;
+  min-height: 42px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-family: "SelectaOT-Regular";}
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .support-sec1.stock-section-banner1 .banner__media img{    right: 0;    max-width: 62%;

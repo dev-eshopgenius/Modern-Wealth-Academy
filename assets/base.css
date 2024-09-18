@@ -1280,9 +1280,9 @@ button.shopify-payment-button__button--unbranded {
   left: var(--buttons-border-width);
   z-index: 1;
   border-radius: var(--buttons-radius);
-  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
+  /* box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
       rgba(var(--color-button-text), var(--border-opacity)),
-    0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
+    0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background)); */
   transition: box-shadow var(--duration-short) ease;
 }
 
@@ -1291,9 +1291,9 @@ button.shopify-payment-button__button--unbranded {
 .customer button:hover::after,
 .shopify-payment-button__button--unbranded:hover::after {
   --border-offset: 1.3px;
-  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
+  /* box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
       rgba(var(--color-button-text), var(--border-opacity)),
-    0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button), var(--alpha-button-background));
+    0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button), var(--alpha-button-background)); */
 }
 
 .button--secondary:after {
@@ -1308,8 +1308,8 @@ button.shopify-payment-button__button--unbranded {
 .shopify-payment-button__button--unbranded:focus,
 .shopify-payment-button [role='button']:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0 0.5rem rgba(var(--color-foreground), 0.5),
-    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  /* box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0 0.5rem rgba(var(--color-foreground), 0.5),
+    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3); */
 }
 
 .button:focus:not(:focus-visible):not(.focused),
@@ -1610,8 +1610,8 @@ details[open] > .share-button__fallback {
   bottom: 0;
   left: 0;
   border-radius: var(--inputs-radius-outset);
-  box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset)
-    var(--inputs-shadow-blur-radius) rgba(var(--color-shadow), var(--inputs-shadow-opacity));
+  /* box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset)
+    var(--inputs-shadow-blur-radius) rgba(var(--color-shadow), var(--inputs-shadow-opacity)); */
   z-index: -1;
 }
 
@@ -1629,7 +1629,7 @@ details[open] > .share-button__fallback {
   left: var(--inputs-border-width);
   border: 0.1rem solid transparent;
   border-radius: var(--inputs-radius);
-  box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
+  /* box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity)); */
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
 }
@@ -1648,8 +1648,8 @@ details[open] > .share-button__fallback {
 .customer .field:hover.field:after,
 .customer select:hover.select:after,
 .localization-form__select:hover.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width))
-    rgba(var(--color-foreground), var(--inputs-border-opacity));
+  /* box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width))
+    rgba(var(--color-foreground), var(--inputs-border-opacity)); */
   outline: 0;
   border-radius: var(--inputs-radius);
 }
@@ -1659,7 +1659,7 @@ details[open] > .share-button__fallback {
 .customer .field input:focus-visible,
 .customer select:focus-visible,
 .localization-form__select:focus-visible.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+  /* box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground)); */
   outline: 0;
   border-radius: var(--inputs-radius);
 }
@@ -1669,7 +1669,7 @@ details[open] > .share-button__fallback {
 .customer .field input:focus,
 .customer select:focus,
 .localization-form__select:focus.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+  /* box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground)); */
   outline: 0;
   border-radius: var(--inputs-radius);
 }
@@ -1729,7 +1729,7 @@ details[open] > .share-button__fallback {
   text-align: left;
   padding: 1.5rem;
   margin: var(--inputs-border-width);
-  transition: box-shadow var(--duration-short) ease;
+  transition: box-shadow var(--duration-short) ease;    background-color: #F3F3EB; border-radius: 4px;
 }
 
 .field__label,
@@ -1741,8 +1741,8 @@ details[open] > .share-button__fallback {
   pointer-events: none;
   position: absolute;
   transition: top var(--duration-short) ease, font-size var(--duration-short) ease;
-  color: rgba(var(--color-foreground), 0.75);
-  letter-spacing: 0.1rem;
+  color: rgba(var(--color-foreground), 1);
+  letter-spacing: 0;font-family: "RecklessNeue-Book";
   line-height: 1.5;
 }
 
